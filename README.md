@@ -37,3 +37,18 @@ Run:
 ```bash
 uv run ui.py
 ```
+
+
+
+
+## Live Demo
+
+https://summarizer-ai-bnqscujbg5olqcxjpuwjy5.streamlit.app/
+
+## Tech Stack
+
+- Python
+- LangChain
+- Mistral AI
+- Pydantic
+- Streamlit
