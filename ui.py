@@ -2,6 +2,7 @@ import streamlit as st
 
 from dotenv import load_dotenv
 load_dotenv()
+api_key = st.secrets["MISTRAL_API_KEY"]
 
 from pydantic import BaseModel, Field
 from typing import List, Optional
@@ -26,7 +27,8 @@ st.set_page_config(
 # =========================
 
 model = ChatMistralAI(
-    model="mistral-small-2506"
+    model="mistral-small-2506",
+    api_key=api_key
 )
 
 # =========================
