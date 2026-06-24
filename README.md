@@ -1,4 +1,4 @@
-# Summarizer AI
+# Summarizer AI.
 
 AI-powered content summarizer built with:
 
@@ -6,6 +6,8 @@ AI-powered content summarizer built with:
 - Mistral AI
 - CustomTkinter
 - Python
+- Open AI
+- Hugging Face
 
 ## Features
 
